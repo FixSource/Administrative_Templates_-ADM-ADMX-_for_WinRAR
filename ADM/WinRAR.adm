@@ -1,0 +1,204 @@
+;This project is designed to create Group Policy Administrative Template Files (ADMX / ADML). These files are used in Group Policy to configure WinRAR product installations
+   CLASS USER
+
+	CATEGORY "WinRAR"
+	  POLICY "Associate WinRAR with"
+	       EXPLAIN !!Help  
+		   	KEYNAME "Software\WinRAR\Setup"
+
+			PART "001" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.001"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+			PART "7z" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.7z"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+			PART "arj" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.arj"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+			PART "bz" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.bz"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+			PART "bz2" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.bz2"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+			PART "cab" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.cab"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+			PART "gz" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.gz"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+			PART "iso" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.iso"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+			PART "jar" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.jar"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+			PART "lha" CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.lha"
+	 		VALUENAME "Set"
+	 		VALUEON NUMERIC 1
+	 		VALUEOFF NUMERIC 0
+	 	END PART
+
+	 	PART "lz"  CHECKBOX   
+            KEYNAME "Software\WinRAR\Setup\.lz"
+			VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+		
+	 	PART "lzh"  CHECKBOX   
+            KEYNAME "Software\WinRAR\Setup\.lzh"
+			VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+	 				
+	 	PART "RAR"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.rar"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+
+	 	PART "tar"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.tar"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+
+	 	PART "taz"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.taz"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+
+	 	PART "tbz"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.tbz"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+
+	 	PART ".tbz2"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.tbz2"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+
+	 	PART "tgz"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.tgz"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+
+	 	PART "tlz"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.tlz"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+
+	 	PART "txz"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.txz"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+
+	 	PART "uu"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.uu"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART
+
+	 	PART "uue"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.uue"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART		
+
+	 	PART "xxe"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.xxe"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART		
+
+	 	PART "xz"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.xz"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART		
+
+	 	PART ".z"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.z"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART		
+
+	 	PART "zip"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.zip"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART		
+
+	 	PART "zipx"  CHECKBOX
+            KEYNAME "Software\WinRAR\Setup\.zipx"
+		    VALUENAME "Set"
+	 		VALUEON NUMERIC 0
+	 		VALUEOFF NUMERIC 1
+	 	END PART		
+
+	 END POLICY
+
+    END CATEGORY
+	 
+[strings]
+Help="Associate file types for opening using the WinRAR application."
+
