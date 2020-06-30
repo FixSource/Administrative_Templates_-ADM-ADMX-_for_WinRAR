@@ -1,4 +1,4 @@
-;This project is designed to create Group Policy Administrative Template Files (ADMX / ADML). These files are used in Group Policy to configure WinRAR product installations
+;This project is designed to create Group Policy Administrative Template Files (ADM\ADMX). These files are used in Group Policy to configure WinRAR product installations
 ;This file version is 0.1
    CLASS USER
 
