@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="fullarmor" namespace="FullArmor.1d1dae9f-be8c-4673-bba6-1bf7d2518117" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="e:\WinRAR.adm" />
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_NotSpecified" displayName="$(string.ADMXMigrator_NoSupportedOn)" />
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="WinRAR" displayName="$(string.unknown_0)" />
+  </categories>
+  <policies>
+    <policy name="AssociateWinRARwith" class="User" displayName="$(string.unknown_1)" explainText="$(string.Help)" presentation="$(presentation.AssociateWinRARwith)" key="Software\WinRAR\Setup">
+      <parentCategory ref="WinRAR" />
+      <supportedOn ref="SUPPORTED_NotSpecified" />
+      <elements>
+        <boolean id="001" key="$(string.unknown_3)" valueName="Set" />
+        <boolean id="7z" key="$(string.unknown_4)" valueName="Set" />
+        <boolean id="arj" key="$(string.unknown_5)" valueName="Set" />
+        <boolean id="bz" key="$(string.unknown_6)" valueName="Set" />
+        <boolean id="bz2" key="$(string.unknown_7)" valueName="Set" />
+        <boolean id="cab" key="$(string.unknown_8)" valueName="Set" />
+        <boolean id="gz" key="$(string.unknown_9)" valueName="Set" />
+        <boolean id="iso" key="$(string.unknown_10)" valueName="Set" />
+        <boolean id="jar" key="$(string.unknown_11)" valueName="Set" />
+        <boolean id="lha" key="$(string.unknown_12)" valueName="Set" />
+        <boolean id="lz" key="$(string.unknown_13)" valueName="Set" />
+        <boolean id="lzh" key="$(string.unknown_14)" valueName="Set" />
+        <boolean id="RAR" key="$(string.unknown_15)" valueName="Set" />
+        <boolean id="tar" key="$(string.unknown_16)" valueName="Set" />
+        <boolean id="taz" key="$(string.unknown_17)" valueName="Set" />
+        <boolean id="tbz" key="$(string.unknown_18)" valueName="Set" />
+        <boolean id="tbz2" key="$(string.unknown_19)" valueName="Set" />
+        <boolean id="tgz" key="$(string.unknown_20)" valueName="Set" />
+        <boolean id="tlz" key="$(string.unknown_21)" valueName="Set" />
+        <boolean id="txz" key="$(string.unknown_22)" valueName="Set" />
+        <boolean id="uu" key="$(string.unknown_23)" valueName="Set" />
+        <boolean id="uue" key="$(string.unknown_24)" valueName="Set" />
+        <boolean id="xxe" key="$(string.unknown_25)" valueName="Set" />
+        <boolean id="xz" key="$(string.unknown_26)" valueName="Set" />
+        <boolean id="z" key="$(string.unknown_27)" valueName="Set" />
+        <boolean id="zip" key="$(string.unknown_28)" valueName="Set" />
+        <boolean id="zipx" key="$(string.unknown_29)" valueName="Set" />
+      </elements>
+    </policy>
+  </policies>
+</policyDefinitions>
