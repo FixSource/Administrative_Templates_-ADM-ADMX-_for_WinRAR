@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName></displayName>
+  <description></description>
+  <resources>
+    <stringTable>
+      <string id="unknown_0">WinRAR</string>
+      <string id="unknown_1">Associate WinRAR with</string>
+      <string id="Help">Associate file types for opening using the WinRAR application.</string>
+      <string id="ADMXMigrator_UnresolvedString">ADMX Migrator encountered a string that is not present in the source ADM string table.</string>
+      <string id="ADMXMigrator_NoSupportedOn">ADMX Migrator encountered a policy that does not have a supportedOn value.</string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="AssociateWinRARwith">
+        <checkBox refId="001">001</checkBox>
+        <checkBox refId="7z">7z</checkBox>
+        <checkBox refId="arj">arj</checkBox>
+        <checkBox refId="bz">bz</checkBox>
+        <checkBox refId="bz2">bz2</checkBox>
+        <checkBox refId="cab">cab</checkBox>
+        <checkBox refId="gz">gz</checkBox>
+        <checkBox refId="iso">iso</checkBox>
+        <checkBox refId="jar">jar</checkBox>
+        <checkBox refId="lha">lha</checkBox>
+        <checkBox refId="lz">lz</checkBox>
+        <checkBox refId="lzh">lzh</checkBox>
+        <checkBox refId="RAR">RAR</checkBox>
+        <checkBox refId="tar">tar</checkBox>
+        <checkBox refId="taz">taz</checkBox>
+        <checkBox refId="tbz">tbz</checkBox>
+        <checkBox refId="tbz2">.tbz2</checkBox>
+        <checkBox refId="tgz">tgz</checkBox>
+        <checkBox refId="tlz">tlz</checkBox>
+        <checkBox refId="txz">txz</checkBox>
+        <checkBox refId="uu">uu</checkBox>
+        <checkBox refId="uue">uue</checkBox>
+        <checkBox refId="xxe">xxe</checkBox>
+        <checkBox refId="xz">xz</checkBox>
+        <checkBox refId="z">.z</checkBox>
+        <checkBox refId="zip">zip</checkBox>
+        <checkBox refId="zipx">zipx</checkBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>
