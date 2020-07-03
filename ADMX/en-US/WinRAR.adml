@@ -7,7 +7,7 @@
       <string id="unknown_0">WinRAR</string>
       <string id="unknown_1">Associate WinRAR with</string>
       <string id="Help">Associate file types for opening using the WinRAR application.</string>
-      <string id="ADMXMigrator_UnresolvedString">ADMX Migrator encountered a string that is not present in the source ADM string table.</string>
+      <string id="ADMXMigrator_UnresolvedString">WinRAR</string>
       <string id="ADMXMigrator_NoSupportedOn">ADMX Migrator encountered a policy that does not have a supportedOn value.</string>
     </stringTable>
     <presentationTable>
